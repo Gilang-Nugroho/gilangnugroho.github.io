@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="body">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top p-0" data-aos="fade-down" data-aos-duration="1000">
+      <div class="container-fluid" id="changeNav">
+        <p>
+          <a class="navbar-brand px-5 mt-3 text-primary" href="#" id="navBuilder">Gilang Nugroho</a>
+        </p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-4 px-5 mt-3">
+            <li class="nav-item">
+              <p>
+                <a class="nav-link" href="#" id="navHome">Home</a>
+              </p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a class="nav-link" href="#about" id="navAbout">About Me</a>
+              </p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a class="nav-link" href="#projects" id="navProjects">Projects</a>
+              </p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a class="nav-link" href="#contact" id="navContact">Contact</a>
+              </p>
+            </li>
+
+            <!-- toggle switch -->
+            <button class="toggle bg-primary text-white" onclick="darkMode()" id="switchMode"><span>Dark Mode</span></button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+    <section id="hero">
+      <div class="container">
+        <h5 data-aos="fade-up" data-aos-duration="1000">Hello everyone🤚</h5>
+        <h1 class="text-primary" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">I'm Gilang Nugroho</h1>
+        <h3 class="mt-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">A university Student</h3>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About me start -->
+    <section id="about">
+      <div class="container pt-4">
+        <!-- Title section -->
+        <div class="row mb-5">
+          <div class="col">
+            <h1 data-aos="fade-up" data-aos-duration="1000">About Me</h1>
+          </div>
+        </div>
+
+        <!-- Isi section -->
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4 mb-3">
+            <img src="./img/Portfolio Image3.jpeg" alt="" width="250" class="rounded-4 img-thumbnail border-0" data-aos="fade-right" data-aos-duration="1000" />
+          </div>
+          <div class="col-md-4 mb-3">
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              I am a student from <a href="https://poltekkesjkt2.ac.id/id/">Politeknik Kesehatan Jakarta 2</a>. I am someone who has an interest in technology, especially in web development. This encouraged me to learn the process of web
+              development, starting from HTML, CSS, and Javascript as a basis.
+            </p>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Current Technology</h2>
+            <div class="images pt-2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+              <div class="html">
+                <img src="./img/icons8-html-5-48.png" alt="" />
+              </div>
+              <div class="css">
+                <img src="./img/icons8-css3-48.png" alt="" />
+              </div>
+              <div class="js">
+                <img src="./img/icons8-javascript-48.png" alt="" />
+              </div>
+              <div class="bs">
+                <img src="./img/icons8-bootstrap-48.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me end -->
+
+    <!-- Projects start -->
+    <section id="projects">
+      <div class="container pt-4 d-grid position-relative">
+        <!-- Title -->
+        <div class="row mb-5">
+          <div class="col">
+            <h1 data-aos="fade-right" data-aos-duration="1000">My Projects</h1>
+          </div>
+        </div>
+
+        <!-- Isi -->
+        <div class="row">
+          <!-- suwit game -->
+          <div class="col-md-4 sm-4 mb-3" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card">
+              <img src="./img/Screenshot (86).png" class="card-img-top" alt="Suwit Game" />
+              <div class="card-body">
+                <h5 class="card-title just text-start text-primary">Suwit game</h5>
+                <p class="card-text">
+                  Suwit Game is a mini project that I created to implement the JavaScript knowledge that I have learned. The user will choose among the available options, if the choice is correct the user wins, but if the choice is wrong
+                  the user loses. <br />
+                  <br />
+                  Technology used: HTML, CSS, Javascript
+                </p>
+                <div class="position-relative">
+                  <a href="https://gilang-nugroho.github.io/suwitgame.github.io/" class="btn btn-primary position-relative">Click here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Login page -->
+          <div class="col-md-4 sm-4 mb-3" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="200">
+            <div class="card">
+              <img src="./img/Screenshot (87).png" class="card-img-top" alt="Suwit Game" />
+              <div class="card-body">
+                <h5 class="card-title text-start text-primary mt-2">Login Page</h5>
+                <p class="card-text">
+                  The login page is a simple project that I created to implement my knowledge of HTML and CSS, especially in implementing styling skills using CSS. <br />
+                  <br />
+                  Technology used: HTML and CSS
+                </p>
+                <div class="position-relative">
+                  <a href="https://gilang-nugroho.github.io/suwitgame.github.io/" class="btn btn-primary position-relative">Click here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- AboutHistory -->
+          <div class="col-md-4 sm-12 mb-3" data-aos="flip-left" data-aos-duration="1400" data-aos-delay="400">
+            <div class="card">
+              <img src="./img/Screenshot (88).png" class="card-img-top" alt="Suwit Game" />
+              <div class="card-body">
+                <h5 class="card-title text-start text-primary">AboutHistory Web</h5>
+                <p class="card-textv">
+                  AboutHistory Web is a simple project I created to implement my knowledge of HTML and CSS, as well as a little extra Javascript to implement dark mode. <br />
+                  <br />
+                  Technology used: HTML, CSS, and Javascript.
+                </p>
+                <div class="position-relative">
+                  <a href="https://gilang-nugroho.github.io/suwitgame.github.io/" class="btn btn-primary position-relative">Click here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects end -->
+
+    <!-- Contact start -->
+    <section id="contact">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col">
+            <h1>Contact Me</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3 text-start">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" aria-describedby="Name" placeholder="Name" />
+              </div>
+
+              <div class="mb-3 text-start">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Email" />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+
+              <div class="mb-3 text-start">
+                <label for="Textarea" class="form-label">Message</label>
+                <textarea class="form-control" id="Textarea" rows="3" placeholder="Message"></textarea>
+              </div>
+
+              <div class="mb-3 form-check text-start">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+              </div>
+
+              <div class="button text-center">
+                <button type="submit" class="btn btn-primary w-100 text-center">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <p class="mt-3" style="font-weight: bold">OR</p>
+        <div class="social-media mt-3">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/gilangg_nugroho/">
+            <img src="./img/icons8-instagram-48.png" alt="Instagram" data-aos="fade-right" data-aos-duration="1000" />
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/gilang.nugroho.39904/">
+            <img src="./img/icons8-facebook-48.png" alt="Facebook" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" />
+          </a>
+
+          <!-- Youtube -->
+          <a href="https://www.youtube.com/@gilangnugroho5230">
+            <img src="./img/icons8-youtube-48.png" alt="Youtube" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="bg-primary text-center text-white mt-5 p-3">
+      <p>Made with❤by Gilang Nugroho | 2024</p>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
